@@ -1,20 +1,12 @@
-# Project Name
-
-## Instructions how to start
-
-create `.env` file like the example `.env.sample`
-
-start with `npm run start`
-
-**http://localhost:3000**
+# TalentBoost
 
 ## Description
 
-Describe your project in one/two lines.
+This app is the link between new talent who needs different kind of mentorship and senior professional willing to share their expertise.
 
 ## Motivation
 
-Just a litle API for educational purposes.
+Help recent graduated students to jump to the professional market
 
 ## User Stories
 
@@ -61,8 +53,8 @@ Homepage: - …
 | Method | Path      | description    | Body                     |
 | :----: | --------- | -------------- | ------------------------ |
 |  GET   | `/whoami` | who am i       |                          |
-|  POST  | `/signup` | signup a user  | `{ username, password }` |
-|  POST  | `/login`  | login a user   | `{ username, password }` |
+|  POST  | `/signup` | signup a user  | `{ email, password }` |
+|  POST  | `/login`  | login a user   | `{ email, password }` |
 |  GET   | `/logout` | logout session |                          |
 
 ## Views
@@ -83,10 +75,10 @@ Link to Trello
 
 The url to your repository and to your deployed project
 
-[Repository Link](http://github.com/)
+[Repository Link](https://github.com/carla-mt/finalproject-client)
 
-[Deploy Link](http://heroku.com/)
+[Deploy Link] 
 
 ### Slides
 
-[Slides Link](http://slides.com/)
+[Slides Link]()

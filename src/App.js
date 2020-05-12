@@ -8,6 +8,10 @@ import { AnonRoute, PrivateRoute } from "./components";
 
 import apiClient from "./services/apiClient";
 import Protected from "./views/Protected";
+import CreateExperience from "./components/CreateExperience";
+import CreateExperience from "./components/ListExperience";
+import CreateExperience from "./components/UpdateExperience";
+import CreateExperience from "./components/DeleteExperience";
 
 class App extends Component {
   state = {
@@ -61,6 +65,10 @@ class App extends Component {
           <div className="App">
             <Switch>
               <Route exact path={"/"} component={Home} />
+              <Route exact path={"/expierience"} component={ListExperience} />
+              <Route exact path={"/create-expirience"} component={CreateExperience} />
+              <Route exact path={"/update-expirience"} component={UpdateExperience} />
+              <Route exact path={"/delete-expirience"} component={DeleteExperience} />
               <AnonRoute exact path={"/login"} isLoggedIn={isLoggedIn}>
                 <Login onLogin={this.handleLogin} />
               </AnonRoute>

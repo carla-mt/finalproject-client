@@ -1,4 +1,4 @@
-# TalentBoost
+# Name
 
 ## Description
 
@@ -63,7 +63,7 @@ Homepage: - …
 | :--------------- | ------------ | -------------- |
 | Home             | `/`          | home           |
 | Login            | `/login`     | login page     |
-| Protected        | `/protected` | protected view |
+| My profile       | `/id`        | |
 
 ## Links
 
@@ -81,4 +81,4 @@ The url to your repository and to your deployed project
 
 ### Slides
 
-[Slides Link]()
+[Slides Link](https://docs.google.com/presentation/d/1TWPae9jB6KsFqErGih3u-sYslT5mexwYOzH6Bv53ZqI/edit#slide=id.p)
